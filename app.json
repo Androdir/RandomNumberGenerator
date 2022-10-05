@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "RandomNumberGenerator",
-    "slug": "RandomNumberGenerator",
+    "name": "Random Number Generator",
+    "slug": "random-number-generator",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "androdir.randomnumbergenerator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "efa833e3-c04c-4396-bf16-05568ff80323"
+      }
     }
   }
 }
